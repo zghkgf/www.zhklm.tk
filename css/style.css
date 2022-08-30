@@ -1,0 +1,549 @@
+/*：本代码只用作演示,不是源码。源码下载链接: http://www.bootstrapmb.com/item/5229(此说明不在下载的源码里，只用在演示页面里)*//*最新最全最好的Bootstrap模板：http://www.bootstrapmb.com*/
+.back{
+	font-family: "微软雅黑";
+	position: absolute;
+	min-width: 1140px;
+	min-height: 900px;
+	width: 100%;
+	height: 100%; 
+	z-index: 1;
+}
+/*首页*/
+/*main*/
+.mainWrap{
+	width: 100%;
+	margin: 0px auto 0;
+	overflow: hidden;
+	height: 100%;
+	background: url(../img/index_bg.jpg) no-repeat 0 bottom;
+	background-size: 100%;
+}
+/*头部*/
+.topWrap{
+	width: 100%;
+	height:13px;
+	overflow: hidden;
+	margin: 0 auto;
+	background: url(../img/top_bg.png) repeat 0 0;
+}
+.top{
+	width: 900px;
+	height: 80px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+}
+.logo img{
+	width: 203px;
+	height: 49px;
+	margin-top: 24px;
+}
+.top ul {
+	float: right;
+	margin-right: 55px;
+}
+.top ul li{
+	float: left;
+	margin-top: 50px;
+	padding: 0 20px;
+	font-size: 14px;
+	color: #364447;
+	border-right: 2px solid #7f8587;
+}
+.top ul li a{
+	color: #364447;
+}
+.top ul li a:hover,
+.top ul li a.cur{
+	color: #ec4f4f;
+}
+/*内容*/
+.middle,
+.about_con{
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.middle .swiper-slide{
+	margin-top: 24%;
+	margin-left:32%;
+}
+.middle .swiper-slide img{
+	display: inline-block;
+	margin: 0 2px;
+}
+/*关于仁厚*/
+/*位置*/
+.aboutWrap{
+	background: #f9f9f9 url(../img/about_bg.png) no-repeat right bottom;
+}
+.address{
+	width: 1050px;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+}
+.address h2{
+	float: right;
+	margin-top: 50px;
+	margin-right: 65px;
+	padding-left: 10px;
+	background: url(../img/address_icon.png) no-repeat 0 center;
+}
+.address h2 a{
+	font-size: 14px;
+	color: #2a2a2a;
+	padding: 0 10px;
+}
+.address h2 a:hover,
+.address h2 a.cur{
+	color: #ec4f4f;
+}
+.address h2 font{
+	font: 14px/18px consolon;
+	font-weight: bold;
+}
+.about_con{
+	margin: 50px auto 0;
+}
+.about_L{
+	float: left;
+	margin-left: 70px;
+	width: 88px;
+}
+.about_L em{
+	display: block;
+	width: 88px;
+	height: 28px;
+}
+.about_L em.ems{
+	background: url(../img/con_lbgs.png) no-repeat 0 0;
+}
+.about_L em.emx{
+	background: url(../img/con_lbgx.png) no-repeat 0 0;
+}
+.about_L dl{
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: url(../img/con_lbg.png) repeat-y 0 0;
+}
+.about_L dl dd{
+	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
+	margin: 10px auto;
+}
+.about_L dl dd a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: #323232;
+}
+.about_L dl dd a:hover,
+.about_L dl dd a.cur{
+	color: #EC4F4F;
+}
+.about_R{
+	float: left;
+	margin-left: 72px;
+	width: 696px;
+	border: 1px solid #dddddd;
+	border-top: 0;
+	background: #fff;
+}
+.title{
+	display: block;
+	width: 100%;
+	height: 34px;
+	background: url(../img/abo_tit_bg.png) no-repeat;
+	overflow: hidden;
+}
+.title h2{
+	font-size: 14px;
+	color: #000000;
+	line-height: 34px;
+	font-size: 14px;
+	text-indent: 45px;
+	background: url(../img/about_icon.png) no-repeat 20px center;
+}
+.title h2 a{
+	font-size: 14px;
+	color: #2a2a2a;
+	padding: 0 7px;
+}
+.title h2 a:hover,
+.title h2 a.cur{
+	color: #ec4f4f;
+}
+.title h2 font{
+	font: 14px/18px consolon;
+	font-weight: bold;
+}
+.about_p{
+	padding: 18px 0;
+	overflow: hidden;
+}
+.about_p p{
+	width: 88%;
+	margin: 0 auto;
+	font-size: 12px;
+	line-height: 24px;
+	color: #111111;
+	text-align: justify;
+}
+.about_p .about_ewm{
+	display:inline-block;
+	width: 84px;
+	height: auto;
+	float: right;
+	margin-top: 30px;
+	margin-right: 60px;
+	*position: relative;
+	*right: 0;
+	overflow: hidden;
+}
+.about_p .about_ewm img{
+	width: 81px;
+	height: 81px;
+}
+.about_p .about_ewm p{
+	width: 100%;
+	font-size: 12px;
+	color: #111111;
+}
+/*关于仁厚--构架设置*/
+.about_fra{
+	padding: 20px 0;
+}
+.about_fra img{
+	display: block;
+	width: 516px;
+	height: 339px;
+	margin: 0 auto;
+}
+/*律所动态二级*/
+.firmWrap{
+	background: #F9F9F9 url(../img/recruit_bg.png) no-repeat right bottom;
+	padding-bottom: 100px;
+}
+.fim_dynamic{
+	display: block;
+	padding: 20px 20px 40px;
+}
+.fim_dynamic h2{
+	font-size: 18px;
+	color: #EC4F4F;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.fim_dynamic span{
+	text-align: center;
+	color: #838383;
+	font-size: 12px;
+	display: block;
+	padding-bottom:5px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.fim_dynamic p{
+	display: block;
+	width: 88%;
+	margin: 0px auto;
+	font-size: 12px;
+	color: #111111;
+	line-height: 24px;
+}
+.fim_dynamic img{
+	display: block;
+	width: 431px;
+	height:286px;
+	margin: 20px auto;
+}
+/*律所动态*/
+.fim_dy{
+	display: block;
+	padding: 0 40px;
+}
+.fim_dy ul li{
+	display: block;
+	width: 100%;
+	padding: 15px 0 20px;
+	border-bottom: 1px solid #DDDDDD;
+}
+.fim_dy ul li .time{
+	background: #ebebeb;
+	height: 41px;
+	width: 56px;
+	float: left;
+	margin-right: 20px;
+	border-top: 3px solid #EC4F4F;
+	box-shadow:0px 5px 8px rgba(0,0,0,0.3);
+	text-align: center;
+}
+.fim_dy ul li .time em{
+	display: block;
+	font-size: 14px;
+	color: #EC4F4F;
+}
+.fim_dy ul li .time span{
+	display: block;
+	font-size: 12px;
+	color: #364447;
+}
+.fim_dy ul li .wz{
+	float: left;
+	width: 540px;
+}
+.fim_dy ul li .wz a{
+	font-size: 14px;
+	color: #333333;
+}
+.fim_dy ul li .wz a:hover{
+	color: #EC4F4F;
+}
+.fim_dy ul li .wz p{
+	font-size: 12px;
+	color: #111111;
+	line-height: 24px;
+}
+.page{
+	display: block;
+	width: 100%;
+	text-align: center;
+	height: 54px;
+	line-height: 54px;
+}
+.page a{
+	display: inline-block;
+	font-size: 12px;
+	color: #111111;
+	padding: 0 8px;
+}
+.page a:hover,
+.page a.cur{
+	color: #EC4F4F;
+}
+/*联系我们*/
+.linkWrap{
+	background: #F9F9F9 url(../img/link_bg.png) no-repeat right bottom;
+}
+.linkUs{
+	margin-top: 160px;
+}
+.linkUs #map{
+	float: left;
+	width: 387px;
+	height: 251px;
+	margin: 0 20px 0 70px;
+}
+.linkUs .link{
+	float: left;
+}
+.linkUs .link p{
+	font-size: 14px;
+	color: #364447;
+	line-height: 24px;
+}
+.linkUs .link p.p1{
+	margin-top: 27px;
+}
+/*招贤纳士*/
+.recruit{
+	display: block;
+	width: 735px;
+	border-top: 1px solid #e6e6e6;
+	background:#fff url(../img/recruit_tit.png) no-repeat 0 top;
+}
+.recruit ul li{
+	display: block;
+	width: 695px;
+	margin: 0 auto;
+	padding: 22px 0 12px;
+	overflow: hidden;
+	border-bottom: 1px solid #DDDDDD;
+	position: relative;
+	z-index: 0;
+}
+.recruit ul li h2{
+	font-size: 14px;
+	color: #333;
+	width: 210px;
+	height: 27px;
+	text-align: center;
+	line-height: 27px;
+	margin-bottom: 15px;
+	background: url(../img/ul_bg.png) no-repeat 0 0;
+}
+.recruit ul li p{
+	font-size: 12px;
+	color: #111111;
+	line-height: 24px;
+	text-indent: 15px;
+}
+.recruit a.join{
+	position: absolute;
+	bottom: 15px;
+	right: 0;
+	color: #EC4F4F;
+	font-size: 12px;
+	color: #EC4F4F;
+}
+.recruit a.join font{
+	font: 14px/18px consolon;
+	font-weight: bold;
+	margin-left:3px;
+}
+/*服务领域*/
+.serveWrap{
+	background: #f9f9f9 url(../img/serve_bg.png) no-repeat right bottom;
+}
+.serve_con ul li{
+	float: left;
+	width: 268px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 32px;
+	border: 1px solid #DDDDDD;
+	border-top: 0;
+	margin-bottom: 40px;
+	background: #f9f9f9;
+}
+.serve_con ul li .title{
+	display: block;
+	height: 34px;
+	line-height: 34px;
+	background: url(../img/serve_tit_bg.png) no-repeat 0 0;
+}
+.serve_con ul li .title h2{
+	font-size: 14px;
+	color: #333;
+	background: url(../img/about_icon.png) no-repeat 15px center;
+	text-indent: 45px;
+}
+.serve_con ul li .title h2 .more{
+	float: right;
+	margin-right:8px;
+	*position: relative;
+	*top: -34px;
+	background: url(../img/more.png) no-repeat 0 12px;
+}
+.serve_con ul li p{
+	font-size: 12px;
+	line-height: 24px;
+	color: #80684c;
+	width: 90%;
+	margin: 20px auto;
+}
+/*服务领域二级*/
+.serve_secon {
+	width: 698px;
+	margin: 50px auto 0;
+	border: 1px solid #DDDDDD;
+	background: #fdfdfd;
+}
+.serve_secon .title{
+	display: block;
+	height: 34px;
+	line-height: 34px;
+	background: url(../img/serve_tit_bga.png) no-repeat 0 0;
+}
+.serve_secon .title h2{
+	font-size: 14px;
+	color: #333;
+	background: url(../img/about_icon.png) no-repeat 15px center;
+	text-indent: 45px;
+}
+.sever_second{
+	display: block;
+	padding: 20px 40px 40px;
+}
+.sever_second p{
+	font-size: 14px;
+	color: #111111;
+	line-height: 24px;
+}
+/*专业团队*/
+.teamWrap{
+	background: #f9f9f9 url(../img/team_bg.png) no-repeat right bottom;
+}
+.team{
+	background: none;
+	border: none;
+}
+.team ul li{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	padding: 30px 0 20px;
+	background: url(../img/line.png) no-repeat center bottom;
+}
+.team ul li.first{
+	padding: 0px 0 20px;
+}
+.team ul li img{
+	float: left;
+	width: 79px;
+	height: 110px;
+	margin: 0 12px 0 65px;
+}
+.team ul li .wz{
+	float: left;
+	width: 540px;
+}
+.team ul li .wz h2{
+	background: url(../img/ul_bg.png) no-repeat 0 0;
+	height:27px;
+	width: 210px;
+	line-height: 27px;
+	text-align: center;
+	margin-bottom: 22px;
+}
+.team ul li .wz p{
+	font-size: 14px;
+	color: #000000;
+	line-height: 24px;
+	text-indent: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*：本代码只用作演示,不是源码。源码下载链接: http://www.bootstrapmb.com/item/5229(此说明不在下载的源码里，只用在演示页面里)*/
